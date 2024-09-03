@@ -1,0 +1,25 @@
+{
+    "name": "narpat/contactform",
+    "description": "laravel contact form package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Narpat\\Contactform\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "provider":[
+                "Narpat\\Contactform\\ContactFromServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "william juma"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
